@@ -87,8 +87,7 @@ def ayuda():
                   "1. Ingrese los detalles en el campo correspondiente.\n" \
                   "2. Presione 'Registrar Entrada' para registrar una entrada.\n" \
                   "3. Presione 'Registrar Salida' para registrar una salida.\n" \
-                  "4. Para eliminar un registro, selecciónelo y presione 'Eliminar registro'.\n" \
-                  "5. Los registros se guardan automáticamente al cerrar la aplicación."
+                  "4. Para eliminar un registro, selecciónelo y presione 'Eliminar registro'.\n" 
     messagebox.showinfo("Ayuda", ayuda_texto)
 
 barra_menu = tk.Menu(ventana)
